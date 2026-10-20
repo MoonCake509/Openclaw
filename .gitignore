@@ -1,0 +1,23 @@
+# Секреты и локальное состояние
+.env
+.env.*
+!.env.example
+**/config/delivery.env
+**/browser_storage_state.json
+**/session*.json
+
+# Python / Node
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+build/
+
+# Прочее
+.DS_Store
+*.log
+.idea/
+.vscode/
+*.zip

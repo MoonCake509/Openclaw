@@ -1,0 +1,191 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8">
+<title>Модель · Точка №1</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,'Segoe UI',sans-serif;background:#1a1d29;color:#fff;padding:22px;max-width:1100px;margin:0 auto}
+h1{font-size:26px;font-weight:700}
+.sub{color:#8b8fa3;font-size:13px;margin-top:4px;line-height:1.5}
+.mg{display:flex;gap:10px;margin:16px 0}
+.mc{background:#2a2e3e;border-radius:12px;padding:14px;flex:1;min-width:0}
+.ml{font-size:10px;color:#8b8fa3;text-transform:uppercase;letter-spacing:1px}
+.mv{font-size:22px;font-weight:700;margin-top:4px}
+.mv.gr{color:#4caf50}.mv.rd{color:#f44336}.mv.am{color:#ffc107}
+.ms{font-size:11px;color:#8b8fa3;margin-top:3px;line-height:1.4}
+.box{background:#2a2e3e;border-radius:12px;padding:16px;margin-bottom:14px}
+.box h3{font-size:13px;font-weight:600;margin-bottom:12px;color:#e4e6eb}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;padding:6px 8px;border-bottom:2px solid #3a3e4e;color:#8b8fa3;font-size:10px;text-transform:uppercase}
+td{padding:6px 8px;border-bottom:1px solid #3a3e4e;color:#d0d2db}
+tr:last-child td{border-bottom:none}
+.num{text-align:right;font-weight:600;color:#fff;font-variant-numeric:tabular-nums}
+.neg{color:#f44336}.pos{color:#4caf50}
+.lb{background:#1f2330;border-radius:3px;height:7px;width:100%}
+.lf{background:#f44336;height:7px;border-radius:3px}
+.legend{display:flex;gap:18px;font-size:11px;color:#8b8fa3;margin-top:8px;flex-wrap:wrap}
+.dot{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px}
+.warn{background:#3a2a1a;border-left:3px solid #ffc107;border-radius:8px;padding:12px 14px;font-size:12px;color:#e4e6eb;line-height:1.6;margin-bottom:14px}
+</style></head><body>
+
+<h1>Модель · Точка №1</h1>
+<div class="sub">Построена на фактических данных выгрузки (апрель–сентябрь 2026) · 2026-10-03<br>
+Оборот — факт. Расходы — допущения из <code>data/model/assumptions.json</code>. Себестоимость неизвестна, показаны три уровня.</div>
+
+<div class="mg">
+<div class="mc"><div class="ml">Убыток за сентябрь</div><div class="mv rd">-26 634 ₽</div><div class="ms">при себестоимости 25%</div></div>
+<div class="mc"><div class="ml">Безубыточный оборот</div><div class="mv am">234 187 ₽</div><div class="ms">нужно в месяц, чтобы выйти в ноль</div></div>
+<div class="mc"><div class="ml">Разрыв</div><div class="mv">51 617 ₽</div><div class="ms">не хватает до безубытка</div></div>
+<div class="mc"><div class="ml">Убыток сократился</div><div class="mv gr">-70%</div><div class="ms">с апреля по сентябрь</div></div>
+</div>
+
+<div class="box"><h3>📈 Оборот против безубыточного уровня</h3>
+<svg viewBox="0 0 760 300" width="100%" style="max-width:760px"><line x1="70" y1="254.0" x2="740" y2="254.0" stroke="#3a3e4e" stroke-width="1"/><text x="62" y="258.0" fill="#8b8fa3" font-size="11" text-anchor="end">0</text><line x1="70" y1="209.2" x2="740" y2="209.2" stroke="#3a3e4e" stroke-width="1"/><text x="62" y="213.2" fill="#8b8fa3" font-size="11" text-anchor="end">53 863</text><line x1="70" y1="164.4" x2="740" y2="164.4" stroke="#3a3e4e" stroke-width="1"/><text x="62" y="168.4" fill="#8b8fa3" font-size="11" text-anchor="end">107 726</text><line x1="70" y1="119.6" x2="740" y2="119.6" stroke="#3a3e4e" stroke-width="1"/><text x="62" y="123.6" fill="#8b8fa3" font-size="11" text-anchor="end">161 589</text><line x1="70" y1="74.8" x2="740" y2="74.8" stroke="#3a3e4e" stroke-width="1"/><text x="62" y="78.8" fill="#8b8fa3" font-size="11" text-anchor="end">215 452</text><line x1="70" y1="30.0" x2="740" y2="30.0" stroke="#3a3e4e" stroke-width="1"/><text x="62" y="34.0" fill="#8b8fa3" font-size="11" text-anchor="end">269 315</text><rect x="88.6" y="184.9" width="37.2" height="69.1" fill="#f44336" opacity="0.75" rx="3"/><text x="107.2" y="274" fill="#d0d2db" font-size="11" text-anchor="middle">04.04</text><text x="107.2" y="178.9" fill="#fff" font-size="10" text-anchor="middle">83 064</text><rect x="163.1" y="163.0" width="37.2" height="91.0" fill="#f44336" opacity="0.75" rx="3"/><text x="181.7" y="274" fill="#d0d2db" font-size="11" text-anchor="middle">05.05</text><text x="181.7" y="157.0" fill="#fff" font-size="10" text-anchor="middle">109 357</text><rect x="237.5" y="155.3" width="37.2" height="98.7" fill="#f44336" opacity="0.75" rx="3"/><text x="256.1" y="274" fill="#d0d2db" font-size="11" text-anchor="middle">06.06</text><text x="256.1" y="149.3" fill="#fff" font-size="10" text-anchor="middle">118 688</text><rect x="311.9" y="128.9" width="37.2" height="125.1" fill="#f44336" opacity="0.75" rx="3"/><text x="330.6" y="274" fill="#d0d2db" font-size="11" text-anchor="middle">07.07</text><text x="330.6" y="122.9" fill="#fff" font-size="10" text-anchor="middle">150 392</text><rect x="386.4" y="116.5" width="37.2" height="137.5" fill="#f44336" opacity="0.75" rx="3"/><text x="405.0" y="274" fill="#d0d2db" font-size="11" text-anchor="middle">08.08</text><text x="405.0" y="110.5" fill="#fff" font-size="10" text-anchor="middle">165 371</text><rect x="460.8" y="102.1" width="37.2" height="151.9" fill="#f44336" opacity="0.75" rx="3"/><text x="479.4" y="274" fill="#d0d2db" font-size="11" text-anchor="middle">09.09</text><text x="479.4" y="96.1" fill="#fff" font-size="10" text-anchor="middle">182 570</text><rect x="535.3" y="96.2" width="37.2" height="157.8" fill="#f44336" opacity="0.75" rx="3"/><text x="553.9" y="274" fill="#d0d2db" font-size="11" text-anchor="middle">10.10</text><text x="553.9" y="90.2" fill="#fff" font-size="10" text-anchor="middle">189 747</text><rect x="609.7" y="88.3" width="37.2" height="165.7" fill="#f44336" opacity="0.75" rx="3"/><text x="628.3" y="274" fill="#d0d2db" font-size="11" text-anchor="middle">11.11</text><text x="628.3" y="82.3" fill="#fff" font-size="10" text-anchor="middle">199 234</text><rect x="684.2" y="83.3" width="37.2" height="170.7" fill="#f44336" opacity="0.75" rx="3"/><text x="702.8" y="274" fill="#d0d2db" font-size="11" text-anchor="middle">12.12</text><text x="702.8" y="77.3" fill="#fff" font-size="10" text-anchor="middle">205 211</text><polyline points="107.2,59.2 181.7,59.2 256.1,59.2 330.6,59.2 405.0,59.2 479.4,59.2 553.9,59.2 628.3,59.2 702.8,59.2" fill="none" stroke="#ffc107" stroke-width="2.5" stroke-dasharray="6 4"/><circle cx="107.2" cy="59.2" r="4" fill="#ffc107"/><circle cx="181.7" cy="59.2" r="4" fill="#ffc107"/><circle cx="256.1" cy="59.2" r="4" fill="#ffc107"/><circle cx="330.6" cy="59.2" r="4" fill="#ffc107"/><circle cx="405.0" cy="59.2" r="4" fill="#ffc107"/><circle cx="479.4" cy="59.2" r="4" fill="#ffc107"/><circle cx="553.9" cy="59.2" r="4" fill="#ffc107"/><circle cx="628.3" cy="59.2" r="4" fill="#ffc107"/><circle cx="702.8" cy="59.2" r="4" fill="#ffc107"/></svg>
+<div class="legend">
+<span><span class="dot" style="background:#f44336"></span>ниже безубытка</span>
+<span><span class="dot" style="background:#4caf50"></span>выше безубытка</span>
+<span><span class="dot" style="background:#ffc107"></span>безубыточный уровень (234 187 ₽)</span>
+<span>последние 3 столбца — прогноз, базовый сценарий</span>
+</div></div>
+
+<div class="warn"><b>Главное:</b> убыток не растёт — он сокращается каждый месяц:
+-87 905 ₽ в апреле → -26 634 ₽ в сентябре.
+Это <b>-70%</b> улучшения за пять месяцев. Бизнес идёт к безубыточности,
+а не от неё. Но: разрыв ещё 51 617 ₽, и он закрывается только ростом оборота.
+Урезать расходы почти нечего — аренда и персонал фиксированы и составляют
+139 400 ₽/мес.</div>
+
+<div class="box"><h3>📋 Факт: апрель–сентябрь</h3>
+<table><tr><th>Месяц</th><th style="text-align:right">Оборот</th><th style="text-align:right">Доставка</th>
+<th style="text-align:right">Себест. 25%</th><th style="text-align:right">Ком. дост.</th>
+<th style="text-align:right">Аренда+ФОТ</th><th style="text-align:right">Прибыль</th><th>Динамика убытка</th></tr>
+<tr>
+<td>2026-04</td>
+<td class="num">83 064</td>
+<td class="num">17 814</td>
+<td class="num">20 766</td>
+<td class="num">6 235</td>
+<td class="num">139 400</td>
+<td class="num neg">-87 905</td>
+<td><div class="lb"><div class="lf" style="width:88%"></div></div></td>
+</tr><tr>
+<td>2026-05</td>
+<td class="num">109 357</td>
+<td class="num">33 406</td>
+<td class="num">27 339</td>
+<td class="num">11 692</td>
+<td class="num">139 400</td>
+<td class="num neg">-75 089</td>
+<td><div class="lb"><div class="lf" style="width:75%"></div></div></td>
+</tr><tr>
+<td>2026-06</td>
+<td class="num">118 688</td>
+<td class="num">40 181</td>
+<td class="num">29 672</td>
+<td class="num">14 063</td>
+<td class="num">139 400</td>
+<td class="num neg">-70 975</td>
+<td><div class="lb"><div class="lf" style="width:71%"></div></div></td>
+</tr><tr>
+<td>2026-07</td>
+<td class="num">150 392</td>
+<td class="num">51 540</td>
+<td class="num">37 598</td>
+<td class="num">18 039</td>
+<td class="num">139 400</td>
+<td class="num neg">-52 917</td>
+<td><div class="lb"><div class="lf" style="width:53%"></div></div></td>
+</tr><tr>
+<td>2026-08</td>
+<td class="num">165 371</td>
+<td class="num">47 590</td>
+<td class="num">41 343</td>
+<td class="num">16 656</td>
+<td class="num">139 400</td>
+<td class="num neg">-41 124</td>
+<td><div class="lb"><div class="lf" style="width:41%"></div></div></td>
+</tr><tr>
+<td>2026-09</td>
+<td class="num">182 570</td>
+<td class="num">40 343</td>
+<td class="num">45 642</td>
+<td class="num">14 120</td>
+<td class="num">139 400</td>
+<td class="num neg">-26 634</td>
+<td><div class="lb"><div class="lf" style="width:27%"></div></div></td>
+</tr></table></div>
+
+<div class="box"><h3>🎯 Точки безубыточности</h3>
+<table><tr><th>Себестоимость</th><th style="text-align:right">Безубыточный оборот</th>
+<th style="text-align:right">доля дост. 22%</th><th style="text-align:right">доля дост. 34%</th>
+<th style="text-align:right">Дефицит к сентябрю</th></tr>
+<tr><td>20%</td>
+<td class="num">216 040</td>
+<td class="num">208 792</td>
+<td class="num">223 058</td>
+<td class="num neg">33 470</td></tr><tr><td>25%</td>
+<td class="num">234 187</td>
+<td class="num">225 694</td>
+<td class="num">242 456</td>
+<td class="num neg">51 617</td></tr><tr><td>30%</td>
+<td class="num">255 663</td>
+<td class="num">245 574</td>
+<td class="num">265 549</td>
+<td class="num neg">73 093</td></tr><tr><td>33.5%</td>
+<td class="num">273 199</td>
+<td class="num">261 710</td>
+<td class="num">284 519</td>
+<td class="num neg">90 629</td></tr></table>
+<div class="sub" style="margin-top:10px">Чем ниже доля доставки в обороте, тем ниже нужный оборот:
+доставка забирает 35% комиссии, поэтому каждый рубль доставки работает хуже рубля кассы.</div></div>
+
+<div class="box"><h3>🔮 Прогноз: октябрь–декабрь</h3>
+<table><tr><th>Сценарий</th><th>Месяц</th><th style="text-align:right">Оборот</th>
+<th style="text-align:right">ФК 20%</th><th style="text-align:right">ФК 25%</th><th style="text-align:right">ФК 30%</th></tr>
+<tr><td>пессимистичный</td><td>2026-10</td>
+<td class="num">182 570</td>
+<td class="num neg">-21 597</td>
+<td class="num neg">-30 725</td>
+<td class="num neg">-39 854</td></tr><tr><td></td><td>2026-11</td>
+<td class="num">182 570</td>
+<td class="num neg">-21 597</td>
+<td class="num neg">-30 725</td>
+<td class="num neg">-39 854</td></tr><tr><td></td><td>2026-12</td>
+<td class="num">182 570</td>
+<td class="num neg">-21 597</td>
+<td class="num neg">-30 725</td>
+<td class="num neg">-39 854</td></tr><tr><td>базовый</td><td>2026-10</td>
+<td class="num">189 747</td>
+<td class="num neg">-16 966</td>
+<td class="num neg">-26 453</td>
+<td class="num neg">-35 940</td></tr><tr><td></td><td>2026-11</td>
+<td class="num">199 234</td>
+<td class="num neg">-10 844</td>
+<td class="num neg">-20 806</td>
+<td class="num neg">-30 768</td></tr><tr><td></td><td>2026-12</td>
+<td class="num">205 211</td>
+<td class="num neg">-6 988</td>
+<td class="num neg">-17 248</td>
+<td class="num neg">-27 509</td></tr><tr><td>оптимистичный</td><td>2026-10</td>
+<td class="num">213 800</td>
+<td class="num neg">-1 446</td>
+<td class="num neg">-12 136</td>
+<td class="num neg">-22 826</td></tr><tr><td></td><td>2026-11</td>
+<td class="num">250 366</td>
+<td class="num pos">22 149</td>
+<td class="num pos">9 630</td>
+<td class="num pos">-2 888</td></tr><tr><td></td><td>2026-12</td>
+<td class="num">293 178</td>
+<td class="num pos">49 773</td>
+<td class="num pos">35 114</td>
+<td class="num pos">20 455</td></tr></table></div>
+
+<div class="box"><h3>⚠️ Чего в модели нет</h3>
+<div class="sub">
+<b>Налог УСН</b> — в расчёте нет.<br>
+<b>Платёж инвестору</b> — строка в финмодели есть, суммы нет.<br>
+<b>Коммунальные, АХО, бухгалтер</b> — в финмодели нули во всех месяцах.
+</div></div>
+
+<div class="sub" style="text-align:center;color:#5a5e6e;font-size:11px;margin-top:18px">
+Сгенерировано scripts/report.py из data/processed/model-2026.json · не редактировать вручную
+</div>
+</body></html>

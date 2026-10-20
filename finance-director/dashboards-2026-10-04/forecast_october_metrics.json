@@ -1,0 +1,1975 @@
+{
+  "report_date": "2026-10-04",
+  "frozen_monthly_totals": {
+    "pessimistic": 166306.89,
+    "plan": 189747.03,
+    "optimistic": 211180.79
+  },
+  "updated_outlook": {
+    "pessimistic": 172304.0,
+    "plan": 193609.84,
+    "optimistic": 213606.4
+  },
+  "closed_actuals": {
+    "2026-10-01": 8259.0
+  },
+  "unclosed_snapshots": {
+    "2026-10-02": 5533.0,
+    "2026-10-03": 8327.0,
+    "2026-10-04": 3841.0
+  },
+  "daily": [
+    {
+      "date": "2026-10-01",
+      "weekday": 3,
+      "cash_plan": 4456.75,
+      "delivery_plan": 1953.25,
+      "pessimistic": 5618.15,
+      "plan": 6410.0,
+      "optimistic": 7134.07,
+      "historical_analogues": [
+        {
+          "date": "2026-09-03",
+          "cash": 5320.0,
+          "cash_checks": 19,
+          "delivery": 4249.0,
+          "delivery_checks": 6,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 3906.1918896255847,
+          "cash_checks": 14,
+          "cash_avg_check": 279.0137064018275,
+          "delivery_revenue": 1711.958110374415,
+          "delivery_checks": 2,
+          "delivery_avg_check": 855.9790551872075,
+          "checks": 16,
+          "avg_check": 351.134375
+        },
+        "plan": {
+          "cash_revenue": 4456.75,
+          "cash_checks": 16,
+          "cash_avg_check": 278.546875,
+          "delivery_revenue": 1953.25,
+          "delivery_checks": 3,
+          "delivery_avg_check": 651.0833333333334,
+          "checks": 19,
+          "avg_check": 337.36842105263156
+        },
+        "optimistic": {
+          "cash_revenue": 4960.181976989079,
+          "cash_checks": 18,
+          "cash_avg_check": 275.5656653882822,
+          "delivery_revenue": 2173.8880230109203,
+          "delivery_checks": 3,
+          "delivery_avg_check": 724.6293410036401,
+          "checks": 21,
+          "avg_check": 339.71761904761905
+        }
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "weekday": 4,
+      "cash_plan": 4585.75,
+      "delivery_plan": 1085.25,
+      "pessimistic": 4970.44,
+      "plan": 5671.0,
+      "optimistic": 6311.6,
+      "historical_analogues": [
+        {
+          "date": "2026-09-04",
+          "cash": 4896.0,
+          "cash_checks": 21,
+          "delivery": 1074.0,
+          "delivery_checks": 2,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 4019.2550220419675,
+          "cash_checks": 17,
+          "cash_avg_check": 236.42676600246867,
+          "delivery_revenue": 951.184977958032,
+          "delivery_checks": 2,
+          "delivery_avg_check": 475.592488979016,
+          "checks": 19,
+          "avg_check": 261.60210526315785
+        },
+        "plan": {
+          "cash_revenue": 4585.75,
+          "cash_checks": 20,
+          "cash_avg_check": 229.2875,
+          "delivery_revenue": 1085.25,
+          "delivery_checks": 2,
+          "delivery_avg_check": 542.625,
+          "checks": 22,
+          "avg_check": 257.77272727272725
+        },
+        "optimistic": {
+          "cash_revenue": 5103.7594251454775,
+          "cash_checks": 22,
+          "cash_avg_check": 231.98906477933988,
+          "delivery_revenue": 1207.840574854523,
+          "delivery_checks": 2,
+          "delivery_avg_check": 603.9202874272615,
+          "checks": 24,
+          "avg_check": 262.98333333333335
+        }
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "weekday": 5,
+      "cash_plan": 4180.0,
+      "delivery_plan": 2133.19,
+      "pessimistic": 5533.3,
+      "plan": 6313.19,
+      "optimistic": 7026.32,
+      "historical_analogues": [
+        {
+          "date": "2026-09-05",
+          "cash": 4240.0,
+          "cash_checks": 23,
+          "delivery": 2179.0,
+          "delivery_checks": 5,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 3663.6302724929874,
+          "cash_checks": 20,
+          "cash_avg_check": 183.18151362464937,
+          "delivery_revenue": 1869.6697275070135,
+          "delivery_checks": 4,
+          "delivery_avg_check": 467.41743187675337,
+          "checks": 24,
+          "avg_check": 230.55416666666667
+        },
+        "plan": {
+          "cash_revenue": 4180.0,
+          "cash_checks": 23,
+          "cash_avg_check": 181.7391304347826,
+          "delivery_revenue": 2133.19,
+          "delivery_checks": 5,
+          "delivery_avg_check": 426.63800000000003,
+          "checks": 28,
+          "avg_check": 225.4710714285714
+        },
+        "optimistic": {
+          "cash_revenue": 4652.167541290536,
+          "cash_checks": 25,
+          "cash_avg_check": 186.08670165162144,
+          "delivery_revenue": 2374.1524587094636,
+          "delivery_checks": 5,
+          "delivery_avg_check": 474.83049174189273,
+          "checks": 30,
+          "avg_check": 234.21066666666667
+        }
+      }
+    },
+    {
+      "date": "2026-10-04",
+      "weekday": 6,
+      "cash_plan": 5971.25,
+      "delivery_plan": 2346.02,
+      "pessimistic": 7289.81,
+      "plan": 8317.27,
+      "optimistic": 9256.79,
+      "historical_analogues": [
+        {
+          "date": "2026-09-06",
+          "cash": 6660.0,
+          "cash_checks": 28,
+          "delivery": 3119.0,
+          "delivery_checks": 6,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 5233.601646032893,
+          "cash_checks": 22,
+          "cash_avg_check": 237.89098391058604,
+          "delivery_revenue": 2056.208353967107,
+          "delivery_checks": 4,
+          "delivery_avg_check": 514.0520884917768,
+          "checks": 26,
+          "avg_check": 280.3773076923077
+        },
+        "plan": {
+          "cash_revenue": 5971.25,
+          "cash_checks": 25,
+          "cash_avg_check": 238.85,
+          "delivery_revenue": 2346.02,
+          "delivery_checks": 5,
+          "delivery_avg_check": 469.204,
+          "checks": 30,
+          "avg_check": 277.24233333333336
+        },
+        "optimistic": {
+          "cash_revenue": 6645.763247736338,
+          "cash_checks": 28,
+          "cash_avg_check": 237.3486874191549,
+          "delivery_revenue": 2611.0267522636636,
+          "delivery_checks": 5,
+          "delivery_avg_check": 522.2053504527328,
+          "checks": 33,
+          "avg_check": 280.5087878787879
+        }
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "weekday": 0,
+      "cash_plan": 3724.5,
+      "delivery_plan": 1185.25,
+      "pessimistic": 4303.23,
+      "plan": 4909.75,
+      "optimistic": 5464.35,
+      "historical_analogues": [
+        {
+          "date": "2026-09-07",
+          "cash": 5240.0,
+          "cash_checks": 27,
+          "delivery": 0.0,
+          "delivery_checks": 0,
+          "weight": 2
+        }
+      ],
+      "delivery_ticket_fallback": [
+        "2026-09-14",
+        "2026-09-21"
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 3264.3984184530777,
+          "cash_checks": 17,
+          "cash_avg_check": 192.0234363795928,
+          "delivery_revenue": 1038.8315815469218,
+          "delivery_checks": 2,
+          "delivery_avg_check": 519.4157907734609,
+          "checks": 19,
+          "avg_check": 226.48578947368418
+        },
+        "plan": {
+          "cash_revenue": 3724.5,
+          "cash_checks": 19,
+          "cash_avg_check": 196.02631578947367,
+          "delivery_revenue": 1185.25,
+          "delivery_checks": 2,
+          "delivery_avg_check": 592.625,
+          "checks": 21,
+          "avg_check": 233.79761904761904
+        },
+        "optimistic": {
+          "cash_revenue": 4145.215453943684,
+          "cash_checks": 21,
+          "cash_avg_check": 197.3912120925564,
+          "delivery_revenue": 1319.1345460563166,
+          "delivery_checks": 2,
+          "delivery_avg_check": 659.5672730281583,
+          "checks": 23,
+          "avg_check": 237.5804347826087
+        }
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "weekday": 1,
+      "cash_plan": 5545.4,
+      "delivery_plan": 785.8,
+      "pessimistic": 5549.08,
+      "plan": 6331.2,
+      "optimistic": 7046.37,
+      "historical_analogues": [
+        {
+          "date": "2026-09-08",
+          "cash": 5610.0,
+          "cash_checks": 23,
+          "delivery": 1291.0,
+          "delivery_checks": 3,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 4860.353208238564,
+          "cash_checks": 20,
+          "cash_avg_check": 243.01766041192818,
+          "delivery_revenue": 688.7267917614354,
+          "delivery_checks": 2,
+          "delivery_avg_check": 344.3633958807177,
+          "checks": 22,
+          "avg_check": 252.23090909090908
+        },
+        "plan": {
+          "cash_revenue": 5545.4,
+          "cash_checks": 23,
+          "cash_avg_check": 241.10434782608695,
+          "delivery_revenue": 785.8,
+          "delivery_checks": 2,
+          "delivery_avg_check": 392.9,
+          "checks": 25,
+          "avg_check": 253.248
+        },
+        "optimistic": {
+          "cash_revenue": 6171.806323919635,
+          "cash_checks": 25,
+          "cash_avg_check": 246.87225295678542,
+          "delivery_revenue": 874.5636760803638,
+          "delivery_checks": 2,
+          "delivery_avg_check": 437.2818380401819,
+          "checks": 27,
+          "avg_check": 260.9766666666667
+        }
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "weekday": 2,
+      "cash_plan": 4565.4,
+      "delivery_plan": 320.4,
+      "pessimistic": 4282.24,
+      "plan": 4885.8,
+      "optimistic": 5437.7,
+      "historical_analogues": [
+        {
+          "date": "2026-09-02",
+          "cash": 4470.0,
+          "cash_checks": 18,
+          "delivery": 89.0,
+          "delivery_checks": 1,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 4001.4201350853486,
+          "cash_checks": 16,
+          "cash_avg_check": 250.0887584428343,
+          "delivery_revenue": 280.81986491465057,
+          "delivery_checks": 3,
+          "delivery_avg_check": 93.60662163821685,
+          "checks": 19,
+          "avg_check": 225.38105263157894
+        },
+        "plan": {
+          "cash_revenue": 4565.4,
+          "cash_checks": 18,
+          "cash_avg_check": 253.63333333333333,
+          "delivery_revenue": 320.4,
+          "delivery_checks": 4,
+          "delivery_avg_check": 80.1,
+          "checks": 22,
+          "avg_check": 222.0818181818182
+        },
+        "optimistic": {
+          "cash_revenue": 5081.1076139015095,
+          "cash_checks": 20,
+          "cash_avg_check": 254.05538069507548,
+          "delivery_revenue": 356.59238609848944,
+          "delivery_checks": 4,
+          "delivery_avg_check": 89.14809652462236,
+          "checks": 24,
+          "avg_check": 226.57083333333333
+        }
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "weekday": 3,
+      "cash_plan": 4456.75,
+      "delivery_plan": 1953.25,
+      "pessimistic": 5618.15,
+      "plan": 6410.0,
+      "optimistic": 7134.07,
+      "historical_analogues": [
+        {
+          "date": "2026-09-10",
+          "cash": 4250.0,
+          "cash_checks": 15,
+          "delivery": 1677.0,
+          "delivery_checks": 3,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 3906.1918896255847,
+          "cash_checks": 14,
+          "cash_avg_check": 279.0137064018275,
+          "delivery_revenue": 1711.958110374415,
+          "delivery_checks": 3,
+          "delivery_avg_check": 570.6527034581383,
+          "checks": 17,
+          "avg_check": 330.47941176470584
+        },
+        "plan": {
+          "cash_revenue": 4456.75,
+          "cash_checks": 16,
+          "cash_avg_check": 278.546875,
+          "delivery_revenue": 1953.25,
+          "delivery_checks": 3,
+          "delivery_avg_check": 651.0833333333334,
+          "checks": 19,
+          "avg_check": 337.36842105263156
+        },
+        "optimistic": {
+          "cash_revenue": 4960.181976989079,
+          "cash_checks": 18,
+          "cash_avg_check": 275.5656653882822,
+          "delivery_revenue": 2173.8880230109203,
+          "delivery_checks": 4,
+          "delivery_avg_check": 543.4720057527301,
+          "checks": 22,
+          "avg_check": 324.27590909090907
+        }
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "weekday": 4,
+      "cash_plan": 4585.75,
+      "delivery_plan": 1085.25,
+      "pessimistic": 4970.44,
+      "plan": 5671.0,
+      "optimistic": 6311.6,
+      "historical_analogues": [
+        {
+          "date": "2026-09-11",
+          "cash": 4960.0,
+          "cash_checks": 25,
+          "delivery": 465.0,
+          "delivery_checks": 2,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 4019.2550220419675,
+          "cash_checks": 20,
+          "cash_avg_check": 200.96275110209837,
+          "delivery_revenue": 951.184977958032,
+          "delivery_checks": 4,
+          "delivery_avg_check": 237.796244489508,
+          "checks": 24,
+          "avg_check": 207.10166666666666
+        },
+        "plan": {
+          "cash_revenue": 4585.75,
+          "cash_checks": 23,
+          "cash_avg_check": 199.3804347826087,
+          "delivery_revenue": 1085.25,
+          "delivery_checks": 5,
+          "delivery_avg_check": 217.05,
+          "checks": 28,
+          "avg_check": 202.53571428571428
+        },
+        "optimistic": {
+          "cash_revenue": 5103.7594251454775,
+          "cash_checks": 26,
+          "cash_avg_check": 196.29843942867222,
+          "delivery_revenue": 1207.840574854523,
+          "delivery_checks": 5,
+          "delivery_avg_check": 241.56811497090462,
+          "checks": 31,
+          "avg_check": 203.60000000000002
+        }
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "weekday": 5,
+      "cash_plan": 4180.0,
+      "delivery_plan": 2133.19,
+      "pessimistic": 5533.3,
+      "plan": 6313.19,
+      "optimistic": 7026.32,
+      "historical_analogues": [
+        {
+          "date": "2026-09-12",
+          "cash": 6180.0,
+          "cash_checks": 24,
+          "delivery": 2995.75,
+          "delivery_checks": 7,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 3663.6302724929874,
+          "cash_checks": 14,
+          "cash_avg_check": 261.68787660664196,
+          "delivery_revenue": 1869.6697275070135,
+          "delivery_checks": 4,
+          "delivery_avg_check": 467.41743187675337,
+          "checks": 18,
+          "avg_check": 307.40555555555557
+        },
+        "plan": {
+          "cash_revenue": 4180.0,
+          "cash_checks": 16,
+          "cash_avg_check": 261.25,
+          "delivery_revenue": 2133.19,
+          "delivery_checks": 5,
+          "delivery_avg_check": 426.63800000000003,
+          "checks": 21,
+          "avg_check": 300.6280952380952
+        },
+        "optimistic": {
+          "cash_revenue": 4652.167541290536,
+          "cash_checks": 18,
+          "cash_avg_check": 258.4537522939187,
+          "delivery_revenue": 2374.1524587094636,
+          "delivery_checks": 6,
+          "delivery_avg_check": 395.6920764515773,
+          "checks": 24,
+          "avg_check": 292.7633333333333
+        }
+      }
+    },
+    {
+      "date": "2026-10-11",
+      "weekday": 6,
+      "cash_plan": 5971.25,
+      "delivery_plan": 2346.02,
+      "pessimistic": 7289.81,
+      "plan": 8317.27,
+      "optimistic": 9256.79,
+      "historical_analogues": [
+        {
+          "date": "2026-09-13",
+          "cash": 3700.0,
+          "cash_checks": 16,
+          "delivery": 267.0,
+          "delivery_checks": 1,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 5233.601646032893,
+          "cash_checks": 23,
+          "cash_avg_check": 227.54789765360402,
+          "delivery_revenue": 2056.208353967107,
+          "delivery_checks": 8,
+          "delivery_avg_check": 257.0260442458884,
+          "checks": 31,
+          "avg_check": 235.15516129032258
+        },
+        "plan": {
+          "cash_revenue": 5971.25,
+          "cash_checks": 26,
+          "cash_avg_check": 229.66346153846155,
+          "delivery_revenue": 2346.02,
+          "delivery_checks": 9,
+          "delivery_avg_check": 260.6688888888889,
+          "checks": 35,
+          "avg_check": 237.63628571428572
+        },
+        "optimistic": {
+          "cash_revenue": 6645.763247736338,
+          "cash_checks": 29,
+          "cash_avg_check": 229.16424992194268,
+          "delivery_revenue": 2611.0267522636636,
+          "delivery_checks": 10,
+          "delivery_avg_check": 261.1026752263664,
+          "checks": 39,
+          "avg_check": 237.35358974358977
+        }
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "weekday": 0,
+      "cash_plan": 3724.5,
+      "delivery_plan": 1185.25,
+      "pessimistic": 4303.23,
+      "plan": 4909.75,
+      "optimistic": 5464.35,
+      "historical_analogues": [
+        {
+          "date": "2026-09-14",
+          "cash": 4320.0,
+          "cash_checks": 26,
+          "delivery": 2056.0,
+          "delivery_checks": 4,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 3264.3984184530777,
+          "cash_checks": 20,
+          "cash_avg_check": 163.2199209226539,
+          "delivery_revenue": 1038.8315815469218,
+          "delivery_checks": 2,
+          "delivery_avg_check": 519.4157907734609,
+          "checks": 22,
+          "avg_check": 195.60136363636363
+        },
+        "plan": {
+          "cash_revenue": 3724.5,
+          "cash_checks": 22,
+          "cash_avg_check": 169.29545454545453,
+          "delivery_revenue": 1185.25,
+          "delivery_checks": 2,
+          "delivery_avg_check": 592.625,
+          "checks": 24,
+          "avg_check": 204.57291666666666
+        },
+        "optimistic": {
+          "cash_revenue": 4145.215453943684,
+          "cash_checks": 25,
+          "cash_avg_check": 165.80861815774736,
+          "delivery_revenue": 1319.1345460563166,
+          "delivery_checks": 3,
+          "delivery_avg_check": 439.71151535210555,
+          "checks": 28,
+          "avg_check": 195.15535714285716
+        }
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "weekday": 1,
+      "cash_plan": 5545.4,
+      "delivery_plan": 785.8,
+      "pessimistic": 5549.08,
+      "plan": 6331.2,
+      "optimistic": 7046.37,
+      "historical_analogues": [
+        {
+          "date": "2026-09-15",
+          "cash": 6122.0,
+          "cash_checks": 20,
+          "delivery": 707.0,
+          "delivery_checks": 1,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 4860.353208238564,
+          "cash_checks": 16,
+          "cash_avg_check": 303.7720755149102,
+          "delivery_revenue": 688.7267917614354,
+          "delivery_checks": 1,
+          "delivery_avg_check": 688.7267917614354,
+          "checks": 17,
+          "avg_check": 326.4164705882353
+        },
+        "plan": {
+          "cash_revenue": 5545.4,
+          "cash_checks": 18,
+          "cash_avg_check": 308.0777777777778,
+          "delivery_revenue": 785.8,
+          "delivery_checks": 1,
+          "delivery_avg_check": 785.8,
+          "checks": 19,
+          "avg_check": 333.2210526315789
+        },
+        "optimistic": {
+          "cash_revenue": 6171.806323919635,
+          "cash_checks": 20,
+          "cash_avg_check": 308.59031619598176,
+          "delivery_revenue": 874.5636760803638,
+          "delivery_checks": 1,
+          "delivery_avg_check": 874.5636760803638,
+          "checks": 21,
+          "avg_check": 335.5414285714286
+        }
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "weekday": 2,
+      "cash_plan": 4565.4,
+      "delivery_plan": 320.4,
+      "pessimistic": 4282.24,
+      "plan": 4885.8,
+      "optimistic": 5437.7,
+      "historical_analogues": [
+        {
+          "date": "2026-09-16",
+          "cash": 4549.0,
+          "cash_checks": 20,
+          "delivery": 356.0,
+          "delivery_checks": 1,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 4001.4201350853486,
+          "cash_checks": 18,
+          "cash_avg_check": 222.30111861585272,
+          "delivery_revenue": 280.81986491465057,
+          "delivery_checks": 1,
+          "delivery_avg_check": 280.81986491465057,
+          "checks": 19,
+          "avg_check": 225.38105263157894
+        },
+        "plan": {
+          "cash_revenue": 4565.4,
+          "cash_checks": 20,
+          "cash_avg_check": 228.26999999999998,
+          "delivery_revenue": 320.4,
+          "delivery_checks": 1,
+          "delivery_avg_check": 320.4,
+          "checks": 21,
+          "avg_check": 232.65714285714287
+        },
+        "optimistic": {
+          "cash_revenue": 5081.1076139015095,
+          "cash_checks": 22,
+          "cash_avg_check": 230.95943699552316,
+          "delivery_revenue": 356.59238609848944,
+          "delivery_checks": 1,
+          "delivery_avg_check": 356.59238609848944,
+          "checks": 23,
+          "avg_check": 236.4217391304348
+        }
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "weekday": 3,
+      "cash_plan": 4456.75,
+      "delivery_plan": 1953.25,
+      "pessimistic": 5618.15,
+      "plan": 6410.0,
+      "optimistic": 7134.07,
+      "historical_analogues": [
+        {
+          "date": "2026-09-17",
+          "cash": 4069.0,
+          "cash_checks": 18,
+          "delivery": 841.0,
+          "delivery_checks": 1,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 3906.1918896255847,
+          "cash_checks": 17,
+          "cash_avg_check": 229.77599350738734,
+          "delivery_revenue": 1711.958110374415,
+          "delivery_checks": 2,
+          "delivery_avg_check": 855.9790551872075,
+          "checks": 19,
+          "avg_check": 295.6921052631579
+        },
+        "plan": {
+          "cash_revenue": 4456.75,
+          "cash_checks": 20,
+          "cash_avg_check": 222.8375,
+          "delivery_revenue": 1953.25,
+          "delivery_checks": 2,
+          "delivery_avg_check": 976.625,
+          "checks": 22,
+          "avg_check": 291.3636363636364
+        },
+        "optimistic": {
+          "cash_revenue": 4960.181976989079,
+          "cash_checks": 22,
+          "cash_avg_check": 225.46281713586723,
+          "delivery_revenue": 2173.8880230109203,
+          "delivery_checks": 3,
+          "delivery_avg_check": 724.6293410036401,
+          "checks": 25,
+          "avg_check": 285.3628
+        }
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "weekday": 4,
+      "cash_plan": 4585.75,
+      "delivery_plan": 1085.25,
+      "pessimistic": 4970.44,
+      "plan": 5671.0,
+      "optimistic": 6311.6,
+      "historical_analogues": [
+        {
+          "date": "2026-09-18",
+          "cash": 4153.0,
+          "cash_checks": 17,
+          "delivery": 2202.0,
+          "delivery_checks": 3,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 4019.2550220419675,
+          "cash_checks": 16,
+          "cash_avg_check": 251.20343887762297,
+          "delivery_revenue": 951.184977958032,
+          "delivery_checks": 1,
+          "delivery_avg_check": 951.184977958032,
+          "checks": 17,
+          "avg_check": 292.37882352941176
+        },
+        "plan": {
+          "cash_revenue": 4585.75,
+          "cash_checks": 19,
+          "cash_avg_check": 241.35526315789474,
+          "delivery_revenue": 1085.25,
+          "delivery_checks": 1,
+          "delivery_avg_check": 1085.25,
+          "checks": 20,
+          "avg_check": 283.55
+        },
+        "optimistic": {
+          "cash_revenue": 5103.7594251454775,
+          "cash_checks": 21,
+          "cash_avg_check": 243.0361631021656,
+          "delivery_revenue": 1207.840574854523,
+          "delivery_checks": 2,
+          "delivery_avg_check": 603.9202874272615,
+          "checks": 23,
+          "avg_check": 274.41739130434786
+        }
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "weekday": 5,
+      "cash_plan": 4180.0,
+      "delivery_plan": 2133.19,
+      "pessimistic": 5533.3,
+      "plan": 6313.19,
+      "optimistic": 7026.32,
+      "historical_analogues": [
+        {
+          "date": "2026-09-19",
+          "cash": 2090.0,
+          "cash_checks": 13,
+          "delivery": 2491.0,
+          "delivery_checks": 3,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 3663.6302724929874,
+          "cash_checks": 23,
+          "cash_avg_check": 159.28827271708641,
+          "delivery_revenue": 1869.6697275070135,
+          "delivery_checks": 2,
+          "delivery_avg_check": 934.8348637535067,
+          "checks": 25,
+          "avg_check": 221.332
+        },
+        "plan": {
+          "cash_revenue": 4180.0,
+          "cash_checks": 26,
+          "cash_avg_check": 160.76923076923077,
+          "delivery_revenue": 2133.19,
+          "delivery_checks": 3,
+          "delivery_avg_check": 711.0633333333334,
+          "checks": 29,
+          "avg_check": 217.6962068965517
+        },
+        "optimistic": {
+          "cash_revenue": 4652.167541290536,
+          "cash_checks": 29,
+          "cash_avg_check": 160.41957038932884,
+          "delivery_revenue": 2374.1524587094636,
+          "delivery_checks": 3,
+          "delivery_avg_check": 791.3841529031546,
+          "checks": 32,
+          "avg_check": 219.5725
+        }
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "weekday": 6,
+      "cash_plan": 5971.25,
+      "delivery_plan": 2346.02,
+      "pessimistic": 7289.81,
+      "plan": 8317.27,
+      "optimistic": 9256.79,
+      "historical_analogues": [
+        {
+          "date": "2026-09-20",
+          "cash": 6240.0,
+          "cash_checks": 28,
+          "delivery": 3781.0,
+          "delivery_checks": 5,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 5233.601646032893,
+          "cash_checks": 23,
+          "cash_avg_check": 227.54789765360402,
+          "delivery_revenue": 2056.208353967107,
+          "delivery_checks": 3,
+          "delivery_avg_check": 685.4027846557024,
+          "checks": 26,
+          "avg_check": 280.3773076923077
+        },
+        "plan": {
+          "cash_revenue": 5971.25,
+          "cash_checks": 27,
+          "cash_avg_check": 221.15740740740742,
+          "delivery_revenue": 2346.02,
+          "delivery_checks": 3,
+          "delivery_avg_check": 782.0066666666667,
+          "checks": 30,
+          "avg_check": 277.24233333333336
+        },
+        "optimistic": {
+          "cash_revenue": 6645.763247736338,
+          "cash_checks": 30,
+          "cash_avg_check": 221.52544159121126,
+          "delivery_revenue": 2611.0267522636636,
+          "delivery_checks": 3,
+          "delivery_avg_check": 870.3422507545546,
+          "checks": 33,
+          "avg_check": 280.5087878787879
+        }
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "weekday": 0,
+      "cash_plan": 3724.5,
+      "delivery_plan": 1185.25,
+      "pessimistic": 4303.23,
+      "plan": 4909.75,
+      "optimistic": 5464.35,
+      "historical_analogues": [
+        {
+          "date": "2026-09-21",
+          "cash": 1628.0,
+          "cash_checks": 13,
+          "delivery": 2685.0,
+          "delivery_checks": 4,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 3264.3984184530777,
+          "cash_checks": 26,
+          "cash_avg_check": 125.55378532511837,
+          "delivery_revenue": 1038.8315815469218,
+          "delivery_checks": 2,
+          "delivery_avg_check": 519.4157907734609,
+          "checks": 28,
+          "avg_check": 153.6867857142857
+        },
+        "plan": {
+          "cash_revenue": 3724.5,
+          "cash_checks": 30,
+          "cash_avg_check": 124.15,
+          "delivery_revenue": 1185.25,
+          "delivery_checks": 2,
+          "delivery_avg_check": 592.625,
+          "checks": 32,
+          "avg_check": 153.4296875
+        },
+        "optimistic": {
+          "cash_revenue": 4145.215453943684,
+          "cash_checks": 33,
+          "cash_avg_check": 125.61258951344497,
+          "delivery_revenue": 1319.1345460563166,
+          "delivery_checks": 2,
+          "delivery_avg_check": 659.5672730281583,
+          "checks": 35,
+          "avg_check": 156.12428571428572
+        }
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "weekday": 1,
+      "cash_plan": 5545.4,
+      "delivery_plan": 785.8,
+      "pessimistic": 5549.08,
+      "plan": 6331.2,
+      "optimistic": 7046.37,
+      "historical_analogues": [
+        {
+          "date": "2026-08-25",
+          "cash": 4368.0,
+          "cash_checks": 18,
+          "delivery": 2926.0,
+          "delivery_checks": 5,
+          "weight": 1
+        },
+        {
+          "date": "2026-09-22",
+          "cash": 5715.0,
+          "cash_checks": 24,
+          "delivery": 0.0,
+          "delivery_checks": 0,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 4860.353208238564,
+          "cash_checks": 20,
+          "cash_avg_check": 243.01766041192818,
+          "delivery_revenue": 688.7267917614354,
+          "delivery_checks": 1,
+          "delivery_avg_check": 688.7267917614354,
+          "checks": 21,
+          "avg_check": 264.2419047619048
+        },
+        "plan": {
+          "cash_revenue": 5545.4,
+          "cash_checks": 23,
+          "cash_avg_check": 241.10434782608695,
+          "delivery_revenue": 785.8,
+          "delivery_checks": 1,
+          "delivery_avg_check": 785.8,
+          "checks": 24,
+          "avg_check": 263.8
+        },
+        "optimistic": {
+          "cash_revenue": 6171.806323919635,
+          "cash_checks": 26,
+          "cash_avg_check": 237.37716630460136,
+          "delivery_revenue": 874.5636760803638,
+          "delivery_checks": 1,
+          "delivery_avg_check": 874.5636760803638,
+          "checks": 27,
+          "avg_check": 260.9766666666667
+        }
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "weekday": 2,
+      "cash_plan": 4565.4,
+      "delivery_plan": 320.4,
+      "pessimistic": 4282.24,
+      "plan": 4885.8,
+      "optimistic": 5437.7,
+      "historical_analogues": [
+        {
+          "date": "2026-08-26",
+          "cash": 4690.0,
+          "cash_checks": 22,
+          "delivery": 2400.0,
+          "delivery_checks": 3,
+          "weight": 1
+        },
+        {
+          "date": "2026-09-23",
+          "cash": 4279.0,
+          "cash_checks": 23,
+          "delivery": 0.0,
+          "delivery_checks": 0,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 4001.4201350853486,
+          "cash_checks": 21,
+          "cash_avg_check": 190.54381595644517,
+          "delivery_revenue": 280.81986491465057,
+          "delivery_checks": 1,
+          "delivery_avg_check": 280.81986491465057,
+          "checks": 22,
+          "avg_check": 194.6472727272727
+        },
+        "plan": {
+          "cash_revenue": 4565.4,
+          "cash_checks": 23,
+          "cash_avg_check": 198.49565217391302,
+          "delivery_revenue": 320.4,
+          "delivery_checks": 1,
+          "delivery_avg_check": 320.4,
+          "checks": 24,
+          "avg_check": 203.57500000000002
+        },
+        "optimistic": {
+          "cash_revenue": 5081.1076139015095,
+          "cash_checks": 26,
+          "cash_avg_check": 195.4272159192888,
+          "delivery_revenue": 356.59238609848944,
+          "delivery_checks": 1,
+          "delivery_avg_check": 356.59238609848944,
+          "checks": 27,
+          "avg_check": 201.3962962962963
+        }
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "weekday": 3,
+      "cash_plan": 4456.75,
+      "delivery_plan": 1953.25,
+      "pessimistic": 5618.15,
+      "plan": 6410.0,
+      "optimistic": 7134.07,
+      "historical_analogues": [
+        {
+          "date": "2026-08-27",
+          "cash": 5480.0,
+          "cash_checks": 22,
+          "delivery": 1438.0,
+          "delivery_checks": 3,
+          "weight": 1
+        },
+        {
+          "date": "2026-09-24",
+          "cash": 4188.0,
+          "cash_checks": 16,
+          "delivery": 1046.0,
+          "delivery_checks": 2,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 3906.1918896255847,
+          "cash_checks": 15,
+          "cash_avg_check": 260.41279264170566,
+          "delivery_revenue": 1711.958110374415,
+          "delivery_checks": 3,
+          "delivery_avg_check": 570.6527034581383,
+          "checks": 18,
+          "avg_check": 312.1194444444444
+        },
+        "plan": {
+          "cash_revenue": 4456.75,
+          "cash_checks": 17,
+          "cash_avg_check": 262.1617647058824,
+          "delivery_revenue": 1953.25,
+          "delivery_checks": 4,
+          "delivery_avg_check": 488.3125,
+          "checks": 21,
+          "avg_check": 305.23809523809524
+        },
+        "optimistic": {
+          "cash_revenue": 4960.181976989079,
+          "cash_checks": 19,
+          "cash_avg_check": 261.06220931521466,
+          "delivery_revenue": 2173.8880230109203,
+          "delivery_checks": 4,
+          "delivery_avg_check": 543.4720057527301,
+          "checks": 23,
+          "avg_check": 310.1769565217391
+        }
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "weekday": 4,
+      "cash_plan": 4585.75,
+      "delivery_plan": 1085.25,
+      "pessimistic": 4970.44,
+      "plan": 5671.0,
+      "optimistic": 6311.6,
+      "historical_analogues": [
+        {
+          "date": "2026-09-25",
+          "cash": 4334.0,
+          "cash_checks": 19,
+          "delivery": 600.0,
+          "delivery_checks": 1,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 4019.2550220419675,
+          "cash_checks": 18,
+          "cash_avg_check": 223.2919456689982,
+          "delivery_revenue": 951.184977958032,
+          "delivery_checks": 2,
+          "delivery_avg_check": 475.592488979016,
+          "checks": 20,
+          "avg_check": 248.522
+        },
+        "plan": {
+          "cash_revenue": 4585.75,
+          "cash_checks": 20,
+          "cash_avg_check": 229.2875,
+          "delivery_revenue": 1085.25,
+          "delivery_checks": 2,
+          "delivery_avg_check": 542.625,
+          "checks": 22,
+          "avg_check": 257.77272727272725
+        },
+        "optimistic": {
+          "cash_revenue": 5103.7594251454775,
+          "cash_checks": 22,
+          "cash_avg_check": 231.98906477933988,
+          "delivery_revenue": 1207.840574854523,
+          "delivery_checks": 2,
+          "delivery_avg_check": 603.9202874272615,
+          "checks": 24,
+          "avg_check": 262.98333333333335
+        }
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "weekday": 5,
+      "cash_plan": 4180.0,
+      "delivery_plan": 2133.19,
+      "pessimistic": 5533.3,
+      "plan": 6313.19,
+      "optimistic": 7026.32,
+      "historical_analogues": [
+        {
+          "date": "2026-08-29",
+          "cash": 4640.0,
+          "cash_checks": 18,
+          "delivery": 1855.0,
+          "delivery_checks": 5,
+          "weight": 1
+        },
+        {
+          "date": "2026-09-26",
+          "cash": 4210.0,
+          "cash_checks": 13,
+          "delivery": 867.0,
+          "delivery_checks": 2,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 3663.6302724929874,
+          "cash_checks": 12,
+          "cash_avg_check": 305.30252270774895,
+          "delivery_revenue": 1869.6697275070135,
+          "delivery_checks": 5,
+          "delivery_avg_check": 373.9339455014027,
+          "checks": 17,
+          "avg_check": 325.48823529411766
+        },
+        "plan": {
+          "cash_revenue": 4180.0,
+          "cash_checks": 14,
+          "cash_avg_check": 298.57142857142856,
+          "delivery_revenue": 2133.19,
+          "delivery_checks": 5,
+          "delivery_avg_check": 426.63800000000003,
+          "checks": 19,
+          "avg_check": 332.2731578947368
+        },
+        "optimistic": {
+          "cash_revenue": 4652.167541290536,
+          "cash_checks": 16,
+          "cash_avg_check": 290.7604713306585,
+          "delivery_revenue": 2374.1524587094636,
+          "delivery_checks": 6,
+          "delivery_avg_check": 395.6920764515773,
+          "checks": 22,
+          "avg_check": 319.3781818181818
+        }
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "weekday": 6,
+      "cash_plan": 5971.25,
+      "delivery_plan": 2346.02,
+      "pessimistic": 7289.81,
+      "plan": 8317.27,
+      "optimistic": 9256.79,
+      "historical_analogues": [
+        {
+          "date": "2026-08-30",
+          "cash": 4480.0,
+          "cash_checks": 17,
+          "delivery": 1562.0,
+          "delivery_checks": 3,
+          "weight": 1
+        },
+        {
+          "date": "2026-09-27",
+          "cash": 7285.0,
+          "cash_checks": 32,
+          "delivery": 2217.1,
+          "delivery_checks": 4,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 5233.601646032893,
+          "cash_checks": 22,
+          "cash_avg_check": 237.89098391058604,
+          "delivery_revenue": 2056.208353967107,
+          "delivery_checks": 4,
+          "delivery_avg_check": 514.0520884917768,
+          "checks": 26,
+          "avg_check": 280.3773076923077
+        },
+        "plan": {
+          "cash_revenue": 5971.25,
+          "cash_checks": 25,
+          "cash_avg_check": 238.85,
+          "delivery_revenue": 2346.02,
+          "delivery_checks": 4,
+          "delivery_avg_check": 586.505,
+          "checks": 29,
+          "avg_check": 286.8024137931035
+        },
+        "optimistic": {
+          "cash_revenue": 6645.763247736338,
+          "cash_checks": 28,
+          "cash_avg_check": 237.3486874191549,
+          "delivery_revenue": 2611.0267522636636,
+          "delivery_checks": 5,
+          "delivery_avg_check": 522.2053504527328,
+          "checks": 33,
+          "avg_check": 280.5087878787879
+        }
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "weekday": 0,
+      "cash_plan": 3724.5,
+      "delivery_plan": 1185.25,
+      "pessimistic": 4303.23,
+      "plan": 4909.75,
+      "optimistic": 5464.35,
+      "historical_analogues": [
+        {
+          "date": "2026-09-28",
+          "cash": 3710.0,
+          "cash_checks": 17,
+          "delivery": 0.0,
+          "delivery_checks": 0,
+          "weight": 2
+        }
+      ],
+      "delivery_ticket_fallback": [
+        "2026-09-14",
+        "2026-09-21"
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 3264.3984184530777,
+          "cash_checks": 15,
+          "cash_avg_check": 217.62656123020517,
+          "delivery_revenue": 1038.8315815469218,
+          "delivery_checks": 2,
+          "delivery_avg_check": 519.4157907734609,
+          "checks": 17,
+          "avg_check": 253.1311764705882
+        },
+        "plan": {
+          "cash_revenue": 3724.5,
+          "cash_checks": 17,
+          "cash_avg_check": 219.08823529411765,
+          "delivery_revenue": 1185.25,
+          "delivery_checks": 2,
+          "delivery_avg_check": 592.625,
+          "checks": 19,
+          "avg_check": 258.4078947368421
+        },
+        "optimistic": {
+          "cash_revenue": 4145.215453943684,
+          "cash_checks": 19,
+          "cash_avg_check": 218.16923441808865,
+          "delivery_revenue": 1319.1345460563166,
+          "delivery_checks": 2,
+          "delivery_avg_check": 659.5672730281583,
+          "checks": 21,
+          "avg_check": 260.20714285714286
+        }
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "weekday": 1,
+      "cash_plan": 5545.4,
+      "delivery_plan": 785.8,
+      "pessimistic": 5549.08,
+      "plan": 6331.2,
+      "optimistic": 7046.37,
+      "historical_analogues": [
+        {
+          "date": "2026-08-25",
+          "cash": 4368.0,
+          "cash_checks": 18,
+          "delivery": 2926.0,
+          "delivery_checks": 5,
+          "weight": 1
+        },
+        {
+          "date": "2026-09-29",
+          "cash": 4350.0,
+          "cash_checks": 17,
+          "delivery": 1264.0,
+          "delivery_checks": 1,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 4860.353208238564,
+          "cash_checks": 19,
+          "cash_avg_check": 255.80806359150336,
+          "delivery_revenue": 688.7267917614354,
+          "delivery_checks": 1,
+          "delivery_avg_check": 688.7267917614354,
+          "checks": 20,
+          "avg_check": 277.454
+        },
+        "plan": {
+          "cash_revenue": 5545.4,
+          "cash_checks": 22,
+          "cash_avg_check": 252.06363636363633,
+          "delivery_revenue": 785.8,
+          "delivery_checks": 1,
+          "delivery_avg_check": 785.8,
+          "checks": 23,
+          "avg_check": 275.2695652173913
+        },
+        "optimistic": {
+          "cash_revenue": 6171.806323919635,
+          "cash_checks": 25,
+          "cash_avg_check": 246.87225295678542,
+          "delivery_revenue": 874.5636760803638,
+          "delivery_checks": 1,
+          "delivery_avg_check": 874.5636760803638,
+          "checks": 26,
+          "avg_check": 271.0142307692308
+        }
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "weekday": 2,
+      "cash_plan": 4565.4,
+      "delivery_plan": 320.4,
+      "pessimistic": 4282.24,
+      "plan": 4885.8,
+      "optimistic": 5437.7,
+      "historical_analogues": [
+        {
+          "date": "2026-08-26",
+          "cash": 4690.0,
+          "cash_checks": 22,
+          "delivery": 2400.0,
+          "delivery_checks": 3,
+          "weight": 1
+        },
+        {
+          "date": "2026-09-30",
+          "cash": 5419.0,
+          "cash_checks": 20,
+          "delivery": 668.0,
+          "delivery_checks": 2,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 4001.4201350853486,
+          "cash_checks": 16,
+          "cash_avg_check": 250.0887584428343,
+          "delivery_revenue": 280.81986491465057,
+          "delivery_checks": 1,
+          "delivery_avg_check": 280.81986491465057,
+          "checks": 17,
+          "avg_check": 251.89647058823527
+        },
+        "plan": {
+          "cash_revenue": 4565.4,
+          "cash_checks": 18,
+          "cash_avg_check": 253.63333333333333,
+          "delivery_revenue": 320.4,
+          "delivery_checks": 1,
+          "delivery_avg_check": 320.4,
+          "checks": 19,
+          "avg_check": 257.14736842105265
+        },
+        "optimistic": {
+          "cash_revenue": 5081.1076139015095,
+          "cash_checks": 20,
+          "cash_avg_check": 254.05538069507548,
+          "delivery_revenue": 356.59238609848944,
+          "delivery_checks": 1,
+          "delivery_avg_check": 356.59238609848944,
+          "checks": 21,
+          "avg_check": 258.93809523809523
+        }
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "weekday": 3,
+      "cash_plan": 4456.75,
+      "delivery_plan": 1953.25,
+      "pessimistic": 5618.15,
+      "plan": 6410.0,
+      "optimistic": 7134.07,
+      "historical_analogues": [
+        {
+          "date": "2026-08-27",
+          "cash": 5480.0,
+          "cash_checks": 22,
+          "delivery": 1438.0,
+          "delivery_checks": 3,
+          "weight": 1
+        },
+        {
+          "date": "2026-09-24",
+          "cash": 4188.0,
+          "cash_checks": 16,
+          "delivery": 1046.0,
+          "delivery_checks": 2,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 3906.1918896255847,
+          "cash_checks": 15,
+          "cash_avg_check": 260.41279264170566,
+          "delivery_revenue": 1711.958110374415,
+          "delivery_checks": 3,
+          "delivery_avg_check": 570.6527034581383,
+          "checks": 18,
+          "avg_check": 312.1194444444444
+        },
+        "plan": {
+          "cash_revenue": 4456.75,
+          "cash_checks": 17,
+          "cash_avg_check": 262.1617647058824,
+          "delivery_revenue": 1953.25,
+          "delivery_checks": 4,
+          "delivery_avg_check": 488.3125,
+          "checks": 21,
+          "avg_check": 305.23809523809524
+        },
+        "optimistic": {
+          "cash_revenue": 4960.181976989079,
+          "cash_checks": 19,
+          "cash_avg_check": 261.06220931521466,
+          "delivery_revenue": 2173.8880230109203,
+          "delivery_checks": 4,
+          "delivery_avg_check": 543.4720057527301,
+          "checks": 23,
+          "avg_check": 310.1769565217391
+        }
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "weekday": 4,
+      "cash_plan": 4585.75,
+      "delivery_plan": 1085.25,
+      "pessimistic": 4970.44,
+      "plan": 5671.0,
+      "optimistic": 6311.6,
+      "historical_analogues": [
+        {
+          "date": "2026-09-25",
+          "cash": 4334.0,
+          "cash_checks": 19,
+          "delivery": 600.0,
+          "delivery_checks": 1,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 4019.2550220419675,
+          "cash_checks": 18,
+          "cash_avg_check": 223.2919456689982,
+          "delivery_revenue": 951.184977958032,
+          "delivery_checks": 2,
+          "delivery_avg_check": 475.592488979016,
+          "checks": 20,
+          "avg_check": 248.522
+        },
+        "plan": {
+          "cash_revenue": 4585.75,
+          "cash_checks": 20,
+          "cash_avg_check": 229.2875,
+          "delivery_revenue": 1085.25,
+          "delivery_checks": 2,
+          "delivery_avg_check": 542.625,
+          "checks": 22,
+          "avg_check": 257.77272727272725
+        },
+        "optimistic": {
+          "cash_revenue": 5103.7594251454775,
+          "cash_checks": 22,
+          "cash_avg_check": 231.98906477933988,
+          "delivery_revenue": 1207.840574854523,
+          "delivery_checks": 2,
+          "delivery_avg_check": 603.9202874272615,
+          "checks": 24,
+          "avg_check": 262.98333333333335
+        }
+      }
+    },
+    {
+      "date": "2026-10-31",
+      "weekday": 5,
+      "cash_plan": 4180.0,
+      "delivery_plan": 2133.19,
+      "pessimistic": 5533.3,
+      "plan": 6313.19,
+      "optimistic": 7026.32,
+      "historical_analogues": [
+        {
+          "date": "2026-08-29",
+          "cash": 4640.0,
+          "cash_checks": 18,
+          "delivery": 1855.0,
+          "delivery_checks": 5,
+          "weight": 1
+        },
+        {
+          "date": "2026-09-26",
+          "cash": 4210.0,
+          "cash_checks": 13,
+          "delivery": 867.0,
+          "delivery_checks": 2,
+          "weight": 2
+        }
+      ],
+      "check_scenarios": {
+        "pessimistic": {
+          "cash_revenue": 3663.6302724929874,
+          "cash_checks": 12,
+          "cash_avg_check": 305.30252270774895,
+          "delivery_revenue": 1869.6697275070135,
+          "delivery_checks": 5,
+          "delivery_avg_check": 373.9339455014027,
+          "checks": 17,
+          "avg_check": 325.48823529411766
+        },
+        "plan": {
+          "cash_revenue": 4180.0,
+          "cash_checks": 14,
+          "cash_avg_check": 298.57142857142856,
+          "delivery_revenue": 2133.19,
+          "delivery_checks": 5,
+          "delivery_avg_check": 426.63800000000003,
+          "checks": 19,
+          "avg_check": 332.2731578947368
+        },
+        "optimistic": {
+          "cash_revenue": 4652.167541290536,
+          "cash_checks": 16,
+          "cash_avg_check": 290.7604713306585,
+          "delivery_revenue": 2374.1524587094636,
+          "delivery_checks": 6,
+          "delivery_avg_check": 395.6920764515773,
+          "checks": 22,
+          "avg_check": 319.3781818181818
+        }
+      }
+    }
+  ],
+  "model_version": "october2026-v1",
+  "checks_monthly_totals": {
+    "pessimistic": {
+      "cash_checks": 559,
+      "delivery_checks": 82,
+      "checks": 641,
+      "avg_check": 259.4491263650546,
+      "cash_revenue": 127384.47955204223,
+      "cash_avg_check": 227.87921207878753,
+      "delivery_revenue": 38922.41044795776,
+      "delivery_avg_check": 474.66354204826536
+    },
+    "plan": {
+      "cash_checks": 637,
+      "delivery_checks": 92,
+      "checks": 729,
+      "avg_check": 260.2839917695473,
+      "cash_revenue": 145338.7,
+      "cash_avg_check": 228.16122448979593,
+      "delivery_revenue": 44408.33,
+      "delivery_avg_check": 482.6992391304348
+    },
+    "optimistic": {
+      "cash_checks": 710,
+      "delivery_checks": 101,
+      "checks": 811,
+      "avg_check": 260.39554870530213,
+      "cash_revenue": 161756.11527513014,
+      "cash_avg_check": 227.82551447201428,
+      "delivery_revenue": 49424.67472486987,
+      "delivery_avg_check": 489.35321509772143
+    }
+  },
+  "checks_method": {
+    "version": "daily-analogues-v1",
+    "history": [
+      {
+        "date": "2026-08-25",
+        "cash": 4368.0,
+        "cash_checks": 18,
+        "delivery": 2926.0,
+        "delivery_checks": 5
+      },
+      {
+        "date": "2026-08-26",
+        "cash": 4690.0,
+        "cash_checks": 22,
+        "delivery": 2400.0,
+        "delivery_checks": 3
+      },
+      {
+        "date": "2026-08-27",
+        "cash": 5480.0,
+        "cash_checks": 22,
+        "delivery": 1438.0,
+        "delivery_checks": 3
+      },
+      {
+        "date": "2026-08-29",
+        "cash": 4640.0,
+        "cash_checks": 18,
+        "delivery": 1855.0,
+        "delivery_checks": 5
+      },
+      {
+        "date": "2026-08-30",
+        "cash": 4480.0,
+        "cash_checks": 17,
+        "delivery": 1562.0,
+        "delivery_checks": 3
+      },
+      {
+        "date": "2026-09-01",
+        "cash": 5930.0,
+        "cash_checks": 22,
+        "delivery": 667.0,
+        "delivery_checks": 2
+      },
+      {
+        "date": "2026-09-02",
+        "cash": 4470.0,
+        "cash_checks": 18,
+        "delivery": 89.0,
+        "delivery_checks": 1
+      },
+      {
+        "date": "2026-09-03",
+        "cash": 5320.0,
+        "cash_checks": 19,
+        "delivery": 4249.0,
+        "delivery_checks": 6
+      },
+      {
+        "date": "2026-09-04",
+        "cash": 4896.0,
+        "cash_checks": 21,
+        "delivery": 1074.0,
+        "delivery_checks": 2
+      },
+      {
+        "date": "2026-09-05",
+        "cash": 4240.0,
+        "cash_checks": 23,
+        "delivery": 2179.0,
+        "delivery_checks": 5
+      },
+      {
+        "date": "2026-09-06",
+        "cash": 6660.0,
+        "cash_checks": 28,
+        "delivery": 3119.0,
+        "delivery_checks": 6
+      },
+      {
+        "date": "2026-09-07",
+        "cash": 5240.0,
+        "cash_checks": 27,
+        "delivery": 0.0,
+        "delivery_checks": 0
+      },
+      {
+        "date": "2026-09-08",
+        "cash": 5610.0,
+        "cash_checks": 23,
+        "delivery": 1291.0,
+        "delivery_checks": 3
+      },
+      {
+        "date": "2026-09-10",
+        "cash": 4250.0,
+        "cash_checks": 15,
+        "delivery": 1677.0,
+        "delivery_checks": 3
+      },
+      {
+        "date": "2026-09-11",
+        "cash": 4960.0,
+        "cash_checks": 25,
+        "delivery": 465.0,
+        "delivery_checks": 2
+      },
+      {
+        "date": "2026-09-12",
+        "cash": 6180.0,
+        "cash_checks": 24,
+        "delivery": 2995.75,
+        "delivery_checks": 7
+      },
+      {
+        "date": "2026-09-13",
+        "cash": 3700.0,
+        "cash_checks": 16,
+        "delivery": 267.0,
+        "delivery_checks": 1
+      },
+      {
+        "date": "2026-09-14",
+        "cash": 4320.0,
+        "cash_checks": 26,
+        "delivery": 2056.0,
+        "delivery_checks": 4
+      },
+      {
+        "date": "2026-09-15",
+        "cash": 6122.0,
+        "cash_checks": 20,
+        "delivery": 707.0,
+        "delivery_checks": 1
+      },
+      {
+        "date": "2026-09-16",
+        "cash": 4549.0,
+        "cash_checks": 20,
+        "delivery": 356.0,
+        "delivery_checks": 1
+      },
+      {
+        "date": "2026-09-17",
+        "cash": 4069.0,
+        "cash_checks": 18,
+        "delivery": 841.0,
+        "delivery_checks": 1
+      },
+      {
+        "date": "2026-09-18",
+        "cash": 4153.0,
+        "cash_checks": 17,
+        "delivery": 2202.0,
+        "delivery_checks": 3
+      },
+      {
+        "date": "2026-09-19",
+        "cash": 2090.0,
+        "cash_checks": 13,
+        "delivery": 2491.0,
+        "delivery_checks": 3
+      },
+      {
+        "date": "2026-09-20",
+        "cash": 6240.0,
+        "cash_checks": 28,
+        "delivery": 3781.0,
+        "delivery_checks": 5
+      },
+      {
+        "date": "2026-09-21",
+        "cash": 1628.0,
+        "cash_checks": 13,
+        "delivery": 2685.0,
+        "delivery_checks": 4
+      },
+      {
+        "date": "2026-09-22",
+        "cash": 5715.0,
+        "cash_checks": 24,
+        "delivery": 0.0,
+        "delivery_checks": 0
+      },
+      {
+        "date": "2026-09-23",
+        "cash": 4279.0,
+        "cash_checks": 23,
+        "delivery": 0.0,
+        "delivery_checks": 0
+      },
+      {
+        "date": "2026-09-24",
+        "cash": 4188.0,
+        "cash_checks": 16,
+        "delivery": 1046.0,
+        "delivery_checks": 2
+      },
+      {
+        "date": "2026-09-25",
+        "cash": 4334.0,
+        "cash_checks": 19,
+        "delivery": 600.0,
+        "delivery_checks": 1
+      },
+      {
+        "date": "2026-09-26",
+        "cash": 4210.0,
+        "cash_checks": 13,
+        "delivery": 867.0,
+        "delivery_checks": 2
+      },
+      {
+        "date": "2026-09-27",
+        "cash": 7285.0,
+        "cash_checks": 32,
+        "delivery": 2217.1,
+        "delivery_checks": 4
+      },
+      {
+        "date": "2026-09-28",
+        "cash": 3710.0,
+        "cash_checks": 17,
+        "delivery": 0.0,
+        "delivery_checks": 0
+      },
+      {
+        "date": "2026-09-29",
+        "cash": 4350.0,
+        "cash_checks": 17,
+        "delivery": 1264.0,
+        "delivery_checks": 1
+      },
+      {
+        "date": "2026-09-30",
+        "cash": 5419.0,
+        "cash_checks": 20,
+        "delivery": 668.0,
+        "delivery_checks": 2
+      }
+    ],
+    "excluded_dates": [
+      "2026-08-17",
+      "2026-08-18",
+      "2026-08-19",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-28",
+      "2026-08-31",
+      "2026-09-09"
+    ],
+    "history_sha256": "85578e4ac1a97a47425e07f65f8b4bbfc30d43b8df2b30e08220d362c8c73a88",
+    "description": "Same weekday, closest normalized day-of-month per historical month; exclude partial-month analogues >7 days away. September weight 2, August 1. Weighted pooled channel ticket from dated analogues. Frozen channel revenue divided by ticket, rounded to integer checks; implied ticket = frozen revenue / integer checks. Scenarios change transaction volume, not independently identified price. Zero-order analogue ticket fallback: pooled positive same-weekday history. This is conditional decomposition of frozen revenue, not independent traffic forecast."
+  }
+}
